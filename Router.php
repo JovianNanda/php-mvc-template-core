@@ -1,9 +1,9 @@
 <?php 
 
-namespace app\core;
+namespace jnanda\jnandaphpmvc;
 
-use app\core\exception\ForbiddenException;
-use app\core\exception\NotFoundException;
+use jnanda\jnandaphpmvc\exception\ForbiddenException;
+use jnanda\jnandaphpmvc\exception\NotFoundException;
 
 class Router
 {
@@ -41,7 +41,7 @@ class Router
         }
         
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \jnanda\jnandaphpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

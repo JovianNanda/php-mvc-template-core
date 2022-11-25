@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace jnanda\jnandaphpmvc;
 
 abstract class Model
 {

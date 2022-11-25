@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace jnanda\jnandaphpmvc;
 
-use app\core\db\DbModel;
+use jnanda\jnandaphpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

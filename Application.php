@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace jnanda\jnandaphpmvc;
 
-use app\core\db\Database;
+use jnanda\jnandaphpmvc\db\Database;
 
 class Application
 {

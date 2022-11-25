@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\db;
+namespace jnanda\jnandaphpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use jnanda\jnandaphpmvc\Application;
+use jnanda\jnandaphpmvc\Model;
 
 abstract class DbModel extends Model
 {

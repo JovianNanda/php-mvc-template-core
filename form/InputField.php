@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace jnanda\jnandaphpmvc\form;
 
-use app\core\Model;
+use jnanda\jnandaphpmvc\Model;
 
 class InputField extends BaseField
 {

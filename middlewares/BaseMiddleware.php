@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\middlewares;
+namespace jnanda\jnandaphpmvc\middlewares;
 
 abstract class BaseMiddleware
 {

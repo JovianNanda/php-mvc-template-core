@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middlewares;
+namespace jnanda\jnandaphpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use jnanda\jnandaphpmvc\Application;
+use jnanda\jnandaphpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

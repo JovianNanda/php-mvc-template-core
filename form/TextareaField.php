@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\form;
+namespace jnanda\jnandaphpmvc\form;
 
 class TextareaField extends BaseField
 {

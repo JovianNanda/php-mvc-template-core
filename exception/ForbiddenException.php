@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exception;
+namespace jnanda\jnandaphpmvc\exception;
 
 class ForbiddenException extends \Exception
 {

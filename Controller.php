@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace jnanda\jnandaphpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use jnanda\jnandaphpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
