@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "jnanda\\jnandaphpmvc": "."
+            "jnanda\\jnandaphpmvc\\": "."
         }
     },
     "require": {}
