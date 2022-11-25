@@ -1,0 +1,15 @@
+{
+    "name": "jnanda/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Jnanda\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jovian Nanda",
+            "email": "joviansismawan13@gmail.com"
+        }
+    ],
+    "require": {}
+}
