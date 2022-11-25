@@ -1,5 +1,5 @@
 {
-    "name": "jnanda/php-mvc-core",
+    "name": "jnanda/php-mvc-template-core",
     "autoload": {
         "psr-4": {
             "Jnanda\\PhpMvcCore\\": "src/"
