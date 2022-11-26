@@ -9,7 +9,6 @@ class Application
     public static string $ROOT_DIR;
 
     public string $layout = 'main';
-    public string $userClass;
     public Router $router;
     public Request $request;
     public Response $response;
@@ -22,7 +21,6 @@ class Application
     public static Application $app;
     public function __construct($rootPath, array $config)
     {
-        $this->userClass = $config['userClass'];
         self::$ROOT_DIR = $rootPath;
         self::$app = $this;
         $this->request = new Request();
