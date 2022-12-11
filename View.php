@@ -15,8 +15,8 @@ class View
     {
         $viewContent = $this->renderOnlyView($view, $params);
         $layoutContent = $this->layoutContent();
-        return str_replace('{{content}}', $viewContent, $layoutContent);
         include_once Application::$ROOT_DIR."/views/$view.php";
+        return str_replace('{{content}}', $viewContent, $layoutContent);
     }
 
     public function renderContent($viewContent)

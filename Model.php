@@ -107,7 +107,6 @@ abstract class Model
 
     public function errorMessages()
     {
-        $functions = new globalFunctions();
         return [
             self::RULE_REQUIRED => 'This field is required',
             self::RULE_EMAIL => 'This field must be valid email address',

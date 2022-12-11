@@ -4,6 +4,9 @@ namespace jnanda\jnandaphpmvc;
 
 class Request
 {
+
+    private array $routeParams = [];
+    
     public function getPath()
     {
         $path = $_SERVER['REQUEST_URI'] ?? '/';
