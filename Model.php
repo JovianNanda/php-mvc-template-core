@@ -2,8 +2,6 @@
 
 namespace jnanda\jnandaphpmvc;
 
-use app\functions\globalFunctions;
-
 abstract class Model
 {
     public const RULE_REQUIRED = 'required';
