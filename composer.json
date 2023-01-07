@@ -1,0 +1,15 @@
+{
+    "name": "jnanda/jnandaphpmvc",
+    "authors": [
+        {
+            "name": "Jovian Nanda",
+            "email": "joviansismawan13@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jnanda\\jnandaphpmvc\\": "."
+        }
+    },
+    "require": {}
+}
