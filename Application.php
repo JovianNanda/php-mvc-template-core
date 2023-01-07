@@ -3,6 +3,7 @@
 namespace jnanda\jnandaphpmvc;
 
 use jnanda\jnandaphpmvc\db\Database;
+
 class Application
 {
     const EVENT_BEFORE_REQUEST = 'beforeRequest';
@@ -22,7 +23,6 @@ class Application
     public ?UserModel $user;
     public View $view;
     public middlewares\Auth $auth;
-
     public ?Controller $controller = null;
     public static Application $app;
     public function __construct($rootPath, array $config)

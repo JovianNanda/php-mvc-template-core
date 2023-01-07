@@ -6,7 +6,6 @@ use jnanda\jnandaphpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
-
     public string $layout = 'main';
     public string $action = '';
     /**
